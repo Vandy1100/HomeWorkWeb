@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <script src="https://kit.fontawesome.com/e191ad7b9b.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: aliceblue;
+         font-family: 'Times New Roman', Times, serif;
+        }
+        .card{
+         border-radius: 20px;
+         background-color: white;
+         width: 270px;
+         height: 430px;
+         font-family: 'Times New Roman', Times, serif;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+        }
+        .sub-title{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .sub_card{
+            display: flex;
+            justify-content: space-between;
+            margin-top: -10px;
+            font-size: 15px;
+        }
+        .sub_card i{
+         color: red;
+        }
+        .card-body{
+            padding: 0 15px;
+        }
+        .card-mid-body h3{
+            width: 100%;
+            height: 30px;
+        }
+        .card-mid-body p{
+          width: 100%;
+          height: 30px;
+          font-size: 16px;
+        }
+        .start-body i{
+            color: orange;
+            font-size: 13px;
+        }
+        hr{
+            margin-top: -30px;
+        }
+        .bg-title{
+            border-radius: 3px;
+            width: 70px;
+            height: 20px;
+            background-color:rgb(213, 233, 240);
+            font-size: 13px;
+            display: grid;
+            place-items: center;
+            color: rgb(66, 66, 211);
+        }
+        .sub-title p i{
+         font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="08.jpg" alt="Image">
+        <div class="card-body">
+            <div class="sub-title">
+                <p class="bg-title">All level</p>
+                <p><i class="fa-regular fa-heart"></i></p>
+            </div>
+            <div class="card-mid-body">
+            <h3>Sketch from A to Z: for app designer</h3>
+            <p>Proposal indulged no do sociable he throwing settling.</p>
+            <p class="start-body"><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i> &nbsp4.5/5.0</p>
+           </div>
+           <br>
+           <hr color="lightblue">
+            <div class="sub_card">
+                <p><i class="fa-regular fa-clock"></i> &nbsp12h 56m</p>
+                <p><i class="fa-solid fa-table"></i> &nbsp15 lectures</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
